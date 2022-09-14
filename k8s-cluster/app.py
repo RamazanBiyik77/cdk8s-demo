@@ -23,7 +23,7 @@ ClusterStack(app, "K8SClusterStack",
     # Uncomment the next line if you know exactly what Account and Region you
     # want to deploy the stack to. */
 
-    env=core.Environment(account='132248825767', region='eu-west-3'),
+    env=core.Environment(account='<account number>', region='eu-west-3'),
 
     # For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html
     )
